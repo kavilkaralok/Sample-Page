@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+}
+
+.apk-button{
+    padding: 20px;
+    background-color: rgb(185, 185, 118);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.apk-button:hover{
+    cursor: pointer;
+    box-shadow: 8px 5px 4px 2px black;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content > a {
+    margin: 30px;
+}
